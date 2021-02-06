@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import * as math from "mathjs";
 import Button from "./Button";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = { result: "" };
   }
   change = e => {
